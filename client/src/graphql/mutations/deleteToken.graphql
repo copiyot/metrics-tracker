@@ -1,0 +1,3 @@
+mutation DeleteToken($id: Float!) {
+  deleteToken(id: $id)
+}

@@ -1,0 +1,9 @@
+query Tokens {
+  tokens {
+    id
+    name
+    value
+    createdAt
+    updatedAt
+  }
+}

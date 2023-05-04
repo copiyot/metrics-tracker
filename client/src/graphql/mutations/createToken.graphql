@@ -1,0 +1,7 @@
+mutation CreateToken($name: String!, $value: Float!) {
+  createToken(options: { name: $name, value: $value }) {
+    id
+    name
+    value
+  }
+}

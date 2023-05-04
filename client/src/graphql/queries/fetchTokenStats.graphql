@@ -1,0 +1,8 @@
+query TokensStatistics{
+  tokensStatistics {
+    name
+    tokenPerMin
+    tokenPerHour
+    tokenPerDay
+  }
+}

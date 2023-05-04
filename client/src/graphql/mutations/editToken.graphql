@@ -1,0 +1,7 @@
+mutation UpdateToken($id: Float!, $name: String!, $value: Int!){
+  updateToken(id: $id, name: $name, value: $value){
+    id
+    value
+    name
+  }
+}
